@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "primo-post",
+    "title": "Primo Post",
+    "content": "Contenuto del primo post. Questo è il contenuto del tuo blog!",
+    "image": "post1.jpg",
+    "tags": [
+      "JavaScript",
+      "Node.js",
+      "Express"
+    ]
+  },
+  {
+    "slug": "secondo-post",
+    "title": "Secondo Post",
+    "content": "Contenuto del secondo post. Continua a scrivere nuovi post interessanti!",
+    "image": "post2.jpg",
+    "tags": [
+      "Web Development",
+      "Coding",
+      "Programming"
+    ]
+  },
+  {
+    "slug": "terzo-post",
+    "title": "Terzo Post",
+    "content": "Contenuto del terzo post. Il blogging è un modo fantastico per condividere le tue idee.",
+    "image": "post3.jpg",
+    "tags": [
+      "Blogging",
+      "Content Creation",
+      "Writing"
+    ]
+  },
+  {
+    "slug": "quarto-post",
+    "title": "Quarto Post",
+    "content": "Contenuto del quarto post. Spero che il tuo blog diventi un successo!",
+    "image": "post4.jpg",
+    "tags": [
+      "Success",
+      "Motivation",
+      "Goals"
+    ]
+  },
+  {
+    "slug": "quinto-post",
+    "title": "Quinto Post",
+    "content": "Contenuto del quinto post. Continua a imparare e a crescere come sviluppatore.",
+    "image": "post5.jpg",
+    "tags": [
+      "Learning",
+      "Growth",
+      "Development"
+    ]
+  },
+  {
+    "title": "Il Miglior Post",
+    "content": "Non ha bisogno di descrizione, è già bello così",
+    "tags": [
+      "html",
+      "css"
+    ],
+    "slug": "il-miglior-post"
+  }
+]
