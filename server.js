@@ -27,6 +27,11 @@ app.use(express.json());
 // configuro express per leggere i dati in formato x-www-form-urlencoded
 app.use(express.urlencoded({ extended : true }));
 
+const errorsFormatterMiddleware = require("./middleware/errorsFormatter");
+const errorsNotFoundMiddleware = require("./middleware/routeNotFound");
+const errorsLoggerMiddleware = require("./middleware/routesLogger");
+
+app.use(errorsLoggerMiddleware);
 
 
 // Rotta principale
@@ -38,6 +43,9 @@ app.get("/post", postsController.index)
 
 // Rotte relative all'entità post
 app.use("/", postsRouter);
+
+app.use(errorsFormatterMiddleware);
+app.use(errorsNotFoundMiddleware);
 
 // Avvia il server
 app.listen(port, () => {

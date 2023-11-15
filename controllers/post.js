@@ -3,8 +3,8 @@ const path = require('path');
 const kebabCase = require('lodash/kebabCase');
 const fs = require("fs");
 
-
 function index(req, res) {
+
     res.format({
         html: () => {
             const html = [];
